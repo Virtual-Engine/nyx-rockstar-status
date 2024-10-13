@@ -1,0 +1,29 @@
+{
+  "name": "nyx-rockstar-status",
+  "version": "1.0.2",
+  "description": "This module retrieves and checks the status of various Rockstar Games online services, such as Red Dead Online, GTA Online, Social Club, and the Rockstar Games Launcher, across different platforms (PC, Xbox One, PS4, etc.). It queries Rockstar's official API for service statuses, then formats them using visual icons (🟢, 🟡, 🔴) to represent server availability status.",
+  "main": "index.js",
+  "scripts": {
+    "test": "index.js"
+  },
+  "files": [
+    "index.js",
+    "data.js",
+    "status.js",
+    "checker.js",
+    "readme.md"
+  ],
+  "author": "zenith",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": [
+    "gtav",
+    "rdr2",
+    "rdr",
+    "gtaiv",
+    "gtao"
+  ]
+}
